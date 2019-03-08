@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+	<div class='carouselWrapper'></div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src='./carousel.js'></script>
+	<script>
+		var imgArray = ["images/img_mountains_wide.jpg","images/img_nature_wide.jpg","images/img_snow_wide.jpg"];
+		$(document).ready(function() {
+			$('.carouselWrapper').salahSlider({
+				images: imgArray
+			})
+		})
+	</script>
+</body>
+</html>
